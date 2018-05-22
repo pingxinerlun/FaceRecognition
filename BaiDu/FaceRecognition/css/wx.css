@@ -1,0 +1,283 @@
+﻿/* alert box */
+.al_box {
+    max-width: 70%;
+    background: #2b2a2a;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px #000;
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    z-index: 10001;
+}
+
+.load_box {
+    max-width: 70%;
+    background: #2b2a2a;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    padding: 18px 40px;
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px #000;
+    -webkit-box-shadow: 0px 0px 3px #000;
+    -moz-box-shadow: 0px 0px 3px #000;
+    z-index: 10001;
+}
+
+.al_screen {
+    width: 100%;
+    height: 100%;
+    background: #d4d5d0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+}
+
+/* pop screen */
+.pop_box {
+    width: 90%;
+    margin-left: 5%;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    z-index: 10001;
+}
+
+    .pop_box .popmess {
+        width: 94%;
+        overflow: hidden;
+        margin-bottom: 8px;
+        padding: 0 3%;
+    }
+
+    .pop_box .leftpop {
+        width: 30%;
+        text-align: right;
+        overflow: hidden;
+        float: left;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .pop_box .rightpop {
+        width: 70%;
+        float: left;
+        line-height: 30px;
+    }
+
+    .pop_box .popinput {
+        display: block;
+        width: 95%;
+        height: 30px;
+        border: 1px solid #d2d2d2;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+        font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica;
+        font-size: 15px;
+        background: #fff;
+        color: #333;
+        margin-left: 2%;
+        padding: 0 0 0 2%;
+        position: relative;
+    }
+
+.popinput .appota {
+    right: 4%;
+    top: 10px;
+    border-color: #88a67f transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    border-width: 8px 8px 0 8px;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+.popinput .appotb {
+    right: 4%;
+    top: 8px;
+    border-color: #fff transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    border-width: 8px 8px 0 8px;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+.popinput .selcss {
+    width: 98%;
+    line-height: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica;
+    font-size: 15px;
+    color: #777;
+    float: left;
+}
+
+.popbtn {
+    display: block;
+    width: 98%;
+    height: 40px;
+    line-height: 40px;
+    background: #ff8a01;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #da7600;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.pop_screen {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+}
+/* conform screen */
+.conf_box {
+    width: 90%;
+    margin-left: 5%;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    z-index: 10001;
+}
+
+.conftitle {
+    width: 100%;
+    font-size: 18px;
+    color: #ff6c00;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.confcontent {
+    width: 94%;
+    text-align: center;
+    padding: 5px 3% 20px 3%;
+}
+
+.conf_box .confbtn {
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+
+.conf_box .onebtn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.conf_box .twobtn {
+    display: block;
+    width: 49%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+}
+
+.conf_box .confbor {
+    border-right: 1px solid #e3e3e3;
+}
+
+.conf_box .confpay {
+    width: 90%;
+    font-size: 17px;
+    color: #ff6c00;
+    text-align: center;
+    padding: 30px 5% 15px 5%;
+    position: relative;
+    line-height: 25px;
+}
+
+.conf_box .confclose {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+    .conf_box .confclose a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url("../images/anclose.png") center center no-repeat;
+    }
+
+/*页面其他样式*/
+.view {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.btnItem {
+    padding: 10px;
+}
+
+.navbar-fixed-bottom .btnItem:nth-child(1) {
+    position: inherit;
+    float: left;
+    left: 0px;
+    width: 50%;
+}
+
+.navbar-fixed-bottom .btnItem:nth-child(2) {
+    position: inherit;
+    float: right;
+    right: 0px;
+    width: 50%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.panel-body {
+    line-height: 25px;
+}

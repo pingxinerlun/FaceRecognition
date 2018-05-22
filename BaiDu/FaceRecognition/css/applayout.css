@@ -1,0 +1,203 @@
+body {
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+#header {
+    height: 40px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 10;
+    color: #333333;
+    border-bottom:solid 1px #e2e2e2;
+}
+
+#body {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#app-name {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#app-visit {
+    position: relative;
+    padding: 7px 12px;
+    color: #fff;
+    background: #39c378;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+    #app-visit:hover {
+        background: #34b36e;
+    }
+
+.navibar {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+    .navibar .navibar-item {
+        display: block;
+        border-radius: 34px;
+        margin: 8px 0 8px 10px;
+        height: 34px;
+        line-height: 34px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 0 10px;
+        cursor: pointer;
+        background-color: #3b7db6;
+    }
+
+        .navibar .navibar-item i {
+            padding: 0 4px;
+            font-size: 20px;
+        }
+
+            .navibar .navibar-item i:hover {
+                color: #e6e6e6;
+            }
+
+    .navibar #fs-navi-qrcode:hover .menu {
+        display: block;
+    }
+
+    .navibar #fs-navi-qrcode .menu {
+        z-index: 100;
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        padding: 10px;
+        box-shadow: 0 2px 8px rgba(51,51,51,.2);
+        background-color: #fff;
+    }
+
+        .navibar #fs-navi-qrcode .menu.menu-show {
+            display: block;
+        }
+
+    .navibar #fs-navi-admin {
+        max-width: 250px;
+    }
+
+        .navibar #fs-navi-admin:hover .user-menu {
+            display: block;
+        }
+
+        .navibar #fs-navi-admin .user-menu {
+            z-index: 100;
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 0;
+        }
+
+        .navibar #fs-navi-admin .menu-pane {
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            margin: 0 auto;
+            box-shadow: 0 2px 8px rgba(51,51,51,.2);
+            background-color: #fff;
+        }
+
+            .navibar #fs-navi-admin .menu-pane .split-line {
+                border-top: solid 1px #f1f1f1;
+                margin: 0 20px;
+            }
+
+            .navibar #fs-navi-admin .menu-pane .menu-item {
+                width: 190px;
+                height: 40px;
+                font-size: 14px;
+                line-height: 40px;
+            }
+
+            .navibar #fs-navi-admin .menu-pane a {
+                display: block;
+                padding-left: 20px;
+                color: #333;
+            }
+
+                .navibar #fs-navi-admin .menu-pane a:hover {
+                    background-color: #eee;
+                }
+
+                .navibar #fs-navi-admin .menu-pane a i {
+                    font-size: 16px;
+                    color: #ccc;
+                }
+
+                .navibar #fs-navi-admin .menu-pane a span {
+                    padding-left: 15px;
+                }
+
+    .navibar > li {
+        height: 50px;
+        line-height: 50px;
+        position: relative;
+        float: left;
+        left: 0;
+    }
+
+        .navibar > li > a {
+            color: #fff;
+        }
+
+.avatar {
+    display: inline-block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 12px;
+    color: #178cdf;
+    background: #fff;
+    margin: 6px 4px 0 0;
+}
+
+.qrcode-dropdown {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
+
+    .qrcode-dropdown .dingtalk {
+        width: 135px;
+        height: 135px;
+        background-image: url(../../images/qrcode_for_258.jpg);
+        background-size: 135px 135px;
+    }
+
+    .qrcode-dropdown .qq {
+        width: 135px;
+        height: 135px;
+        background-image: url(../images/qrcode_for_258.jpg);
+        background-size: 135px 135px;
+    }
+
+    .qrcode-dropdown .message {
+        width: 138px;
+        line-height: 16px;
+    }

@@ -1,0 +1,219 @@
+﻿ul, li, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body > form {
+    height: 100%;
+}
+
+.icon-map {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 14px;
+    vertical-align: middle;
+    background-image: url(../images/mgt.gif);
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    cursor: pointer;
+    background-color:transparent;
+    outline:none;
+    -webkit-appearance:none;
+    border:none;
+}
+
+    .icon-map.icon-back {
+        background-position: -188px -26px;
+        width: 16px;
+        height: 19px;
+        padding-right: 2px;
+    }
+
+    .icon-map.icon-forward {
+        background-position: -209px -26px;
+        width: 16px;
+        height: 19px;
+        padding-left: 2px;
+    }
+
+    .icon-map.icon-update {
+        background-position: -107px -26px;
+        width: 16px;
+        height: 13px;
+        vertical-align: -2px;
+    }
+
+    .icon-map.icon-pen {
+        background-position: -181px 0;
+    }
+
+    .icon-map.icon-supplement {
+        background-position: -260px 0;
+    }
+
+.page-header {
+    color: #000;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+    .page-header .date {
+        padding: 0 5px;
+    }
+
+    .page-header .glyphicon {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+.list li {
+    line-height: 25px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.list .form-horizontal .form-group {
+    padding-top: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.list .form-horizontal .form-group {
+    margin-bottom: 0;
+}
+
+.list .form-group li:last-child {
+    border-bottom: none;
+}
+
+.list li .row {
+    padding: 7px 0 7px 7px;
+}
+
+.list li .btn-link, .btn-link {
+    color: #337ab7;
+}
+
+.list li .checkbox {
+    padding: 0;
+}
+
+.checkbox label {
+    padding-left: 0;
+}
+
+.this-date {
+    vertical-align: bottom;
+    line-height: 18px;
+    padding-left: 10px;
+}
+
+.checkbox .icheckbox_square-green {
+    margin-right: 10px;
+}
+
+#editor {
+    margin: 7px 5% 7px 0;
+}
+
+    #editor .w-e-text-container, #editor1 .w-e-text-container {
+        height: 150px !important;
+    }
+
+#editor1 .w-e-text-container {
+    margin-bottom: 10px;
+}
+
+#btn1 {
+    margin-bottom: 20px;
+}
+
+.judge h3 {
+    padding: 7px 0;
+}
+.media .media-body > .media {
+    background:#ffffff;
+    border:none;
+    margin-top:10px;
+    width:100%;
+}
+.media-body {
+    display: table-cell;
+    padding-left: 15px;
+    width: 100%;
+}
+
+    .media-body .media-wrap {
+        position: relative;
+        padding-bottom: 25px;
+        width: 100%;
+        border-bottom:1px solid #eaeaea;
+    }
+
+.media-list {
+    padding: 15px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.button-pane {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+    .button-pane button {
+        color: #337ab7;
+    }
+
+#work-supplement .row {
+    padding: 4px 0 5px 7px;
+}
+
+.btn-link.btn-active {
+    font-weight: bolder;
+    color: #337ab7;
+    background: none;
+    box-shadow: none;
+}
+
+tbody .checkbox {
+    margin: 0;
+}
+
+.pager li > a, .pager li > span {
+    padding: 2px 5px 0 5px;
+    border-radius: 2px;
+}
+
+#did {
+    display: none;
+}
+
+.gray {
+    color: #888888;
+}
+
+#my-list tr:hover {
+    cursor: pointer;
+}
+
+.judge-section .list-group {
+    display: none;
+}
+
+.judge-score {
+    display: block;
+    margin-right: 5%;
+}
+
+.text-primary {
+    color: #18a689;
+}
+.datepicker.dropdown-menu {
+    z-index:2999 !important;
+}

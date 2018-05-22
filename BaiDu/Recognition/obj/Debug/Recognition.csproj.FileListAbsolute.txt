@@ -1,0 +1,11 @@
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\Recognition.dll
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\Recognition.pdb
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\AipSdk.dll
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\FaceRecognition.dll
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\AipSdk.xml
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\FaceRecognition.pdb
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\obj\Debug\Recognition.csprojResolveAssemblyReference.cache
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\obj\Debug\Recognition.dll
+D:\Project\Git\C#\AI\FaceRecognition\FaceRecognitionTest\FaceRecognition\BaiDu\Recognition\obj\Debug\Recognition.pdb

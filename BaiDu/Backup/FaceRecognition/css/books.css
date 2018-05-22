@@ -1,0 +1,23 @@
+﻿.panel-heading {
+    overflow:hidden;
+}
+.panel-heading h1 {
+    font-size:18px;
+    margin:auto;
+}
+    .panel-heading h1 .pull-right {
+        font-size:12px;
+        line-height:20px
+    }
+.table tr td {
+    width:50%;
+}
+.table textarea {
+    resize:none;
+}
+.table .form-inline {
+    text-align:center;
+}
+    .table .form-inline label {
+        margin:0 20px;
+    }

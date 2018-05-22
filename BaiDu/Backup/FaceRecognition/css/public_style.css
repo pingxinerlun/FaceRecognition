@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body{
+    font-size: 62.5%;
+    font-family: 'Helvetica Neue', Helvetica, 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+    line-height: 1.5em;
+    color: #000000;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+ul,li,ol{
+    list-style: none;
+}
+i{
+    font-style: normal;
+}
+img,a{
+    border: none;
+    display: block;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:1em;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+input,textarea,a,button {
+    -webkit-appearance: none;
+    outline:none;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-family: 'Helvetica Neue', Helvetica, 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+}
+.container{
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+}
+.bigest{
+    font-size: 16px;
+}
+.bigger{
+    font-size: 15px;
+}
+.big{
+    font-size: 14px;
+}
+.small{
+     font-size: 13px;
+ }
+.smaller{
+    font-size: 12px;
+}
+.gray{
+    color: #888;
+}
+@media (min-width: 400px) {
+    .bigest{
+        font-size: 18px;
+    }
+    .bigger{
+        font-size: 17px;
+    }
+    .big{
+        font-size: 16px;
+    }
+    .small{
+        font-size: 15px;
+    }
+    .smaller{
+        font-size: 14px;
+    }
+}
